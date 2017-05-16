@@ -55,4 +55,5 @@ Vagrant.configure("2") do |config|
   # information on available options.
 
   config.vm.provision "shell", path: "./scripts/nodejs.sh"
+  config.vm.provision "shell", path: "./scripts/yarnpkg.sh"
 end
